@@ -8,8 +8,7 @@ logger = logging.getLogger('client.py')
 class Client:
     """
     Connection to the database. 
-
-    The current implementation only refers to the PostgreSQL 
+   The current implementation only refers to the PostgreSQL 
     database, however, this could be easily enhanced to any 
     database at all, including cloud.
     """
