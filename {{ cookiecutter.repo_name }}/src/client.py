@@ -26,5 +26,5 @@ class Client:
             self.conn = self.engine.connect()
         except Exception as e:
             logger.warning('Could not connect to the database on client.py file.')
-            logger.warning('Verify your credentials for {params.user}.')
+            logger.warning(f'Verify your credentials for {params.user}.')
             logger.warning(e)
