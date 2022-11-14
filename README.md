@@ -6,7 +6,7 @@
 
 ## To start a new project run:
 
-> `cookiecutter https://github.com/aguiarandre/etl-pipelines`
+> `cookiecutter https://github.com/Rairocha/etl-pipelines`
 
 for unix users or 
 
